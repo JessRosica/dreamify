@@ -85,7 +85,7 @@ export async function POST(request: NextRequest) {
   const response = await fetch("https://api.replicate.com/v1/predictions", {
     method: "POST",
     headers: {
-      Authorization: `Token ${process.env.REPLICATE_API_TOKEN}`,
+      Authorization: `Token ${344236663529180a987b6dcfb3e8d5594112ea0b}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
