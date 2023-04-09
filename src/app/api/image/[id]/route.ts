@@ -15,7 +15,7 @@ export async function GET(
     `https://api.replicate.com/v1/predictions/${id}`,
     {
       headers: {
-        Authorization: `Token 344236663529180a987b6dcfb3e8d5594112ea0b`,
+        Authorization: `Token ${process.env.REPLICATE_API_TOKEN}`,
         "Content-Type": "application/json",
       },
     }
