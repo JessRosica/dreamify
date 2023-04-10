@@ -286,7 +286,7 @@ export default function Page() {
                     prediction.status === "processing" &&
                     "Creating the image..."}
                   {predictionStatus === "initial" &&
-                    "Here you can see the generated image..."}
+                    "蒸汽电饭煲正在烹饪中..."}
                   {predictionStatus === "error" && error}
                 </p>
               </>
