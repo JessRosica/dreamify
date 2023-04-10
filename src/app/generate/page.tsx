@@ -172,7 +172,7 @@ export default function Page() {
           />
           <Button type="submit" className="text-[16px] sm:text-sm" disabled={predictionStatus === "loading"}>
             <Wand2 className="mr-2 h-5 w-5" />
-            {predictionStatus === "奇迹加载中" ? "奇妙生成中" : "见证奇迹"}
+            {predictionStatus === "loading" ? "Generating" : "Generate"}
           </Button>
         </div>
         <div className="mt-3 lg:mt-3">
