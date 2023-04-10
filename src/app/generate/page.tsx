@@ -220,7 +220,7 @@ export default function Page() {
                 />
               </div>
               <div>
-                <Label htmlFor="seed">Random seed. Leave blank to randomize the seed</Label>
+                <Label htmlFor="seed">随机种子. 意思就是随机打乱</Label>
                 <Input type="number" id="seed" placeholder="0" className="mt-2" value={advancedPrompt.seed}
                   onChange={(e) => {
                     setAdvancedPrompt({
