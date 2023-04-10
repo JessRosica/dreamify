@@ -12,13 +12,13 @@ export default function Home() {
     <main className="px-4 lg:px-0 flex justify-center flex-col items-center">
       <section className="flex justify-center flex-col items-center py-6 lg:py-12 gap-y-6 lg:gap-y-12">
         <h1 className="text-4xl lg:text-7xl font-extrabold text-center leading-snug lg:leading-tight">
-          Generates an{" "}
+          创造一幅{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-tr from-blue-400 to-blue-600 dark:from-blue-400 dark:to-blue-200">
-            image
+            艺术
           </span>{" "}
           <br className="hidden lg:inline-block" /> just from{" "}
           <span className="bg-black text-white dark:text-black dark:bg-white">
-            [text]
+            [从文字开始]
           </span>
         </h1>
         <p className="lg:text-lg text-slate-600 dark:text-slate-200 text-center border dark:border-white px-8 py-1 rounded-full">
@@ -46,7 +46,7 @@ export default function Home() {
           <Link href="/generate">
             <Button size={"lg"} className="text-lg w-full">
               <Wand2 className="mr-2 h-5 w-5" />
-              Open generator
+              艾米莉的奇妙世界
             </Button>
           </Link>
         </div>
