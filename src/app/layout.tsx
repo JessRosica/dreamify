@@ -12,13 +12,13 @@ import { Analytics } from "@vercel/analytics/react";
  * @link https://beta.nextjs.org/docs/api-reference/file-conventions/head
  */
 export const metadata = {
-  title: "Dreamify",
+  title: "蒸汽电饭煲",
   description:
     "A simple generator of images with AI. Using Stable Diffusion. Built on Next.js 13.2",
   keywords: ["stable-diffusion", "machine-learning"],
   generator: "Next.js",
   openGraph: {
-    siteName: "Dreamify - A simple generator of images with AI.",
+    siteName: "蒸汽电饭煲 - A simple generator of images with AI.",
     images: [
       {
         url: "https://dreamify-art.vercel.app/cover.png",
@@ -59,11 +59,11 @@ export default function RootLayout({
           <Link href="/" className="flex flex-row items-center gap-x-4">
             <Image
               src={Logo}
-              alt="Dreamify logo"
+              alt="蒸汽电饭煲 logo"
               className="h-12 w-12 select-none"
             />
             <h1 className="text-4xl leading-normal text-center my-3 lg:my-8 font-bold text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-blue-700 select-none dark:from-white dark:to-white">
-              Dreamify
+              蒸汽电饭煲
             </h1>
           </Link>
         </header>
