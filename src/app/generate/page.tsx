@@ -164,7 +164,7 @@ export default function Page() {
         <div className="flex flex-col lg:flex-row gap-y-2  gap-x-2 w-full">
           <Input
             type="text"
-            placeholder="Describe what you want"
+            placeholder="这里填写描述文字[英文]"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
             maxLength={84}
@@ -172,7 +172,7 @@ export default function Page() {
           />
           <Button type="submit" className="text-[16px] sm:text-sm" disabled={predictionStatus === "loading"}>
             <Wand2 className="mr-2 h-5 w-5" />
-            {predictionStatus === "loading" ? "Generating" : "Generate"}
+            {predictionStatus === "奇迹加载中" ? "奇妙生成中" : "见证奇迹"}
           </Button>
         </div>
         <div className="mt-3 lg:mt-3">
