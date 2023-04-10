@@ -196,7 +196,7 @@ export default function Page() {
             "hidden": !isAdvancedPromptEnabled,
           })}>
             <div>
-              <Label htmlFor="negativePrompt">Negative Prompt: Specify things you do not want not see</Label>
+              <Label htmlFor="negativePrompt">下面填写你不想看到的关键词屏蔽</Label>
               <Input type="text" id="negativePrompt" placeholder="" className="mt-2" value={advancedPrompt.negativePrompt}
                 onChange={(e) => {
                   setAdvancedPrompt({
@@ -209,7 +209,7 @@ export default function Page() {
             </div>
             <div className="flex gap-x-4">
               <div>
-                <Label htmlFor="inferenceSteps">Number of denoising steps (minimum: 1; maximum: 500)</Label>
+                <Label htmlFor="inferenceSteps">去噪步骤的数量 (minimum: 1; maximum: 500)</Label>
                 <Input type="number" id="inferenceSteps" placeholder="Inference steps" className="mt-2" value={advancedPrompt.inferenceSteps}
                   onChange={(e) => {
                     setAdvancedPrompt({
