@@ -74,7 +74,7 @@ export default function RootLayout({
               <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                 © 2023 蒸汽电饭煲. Created by{" "}
                 <a
-                  href="https://github.com/360macky"
+                  href="https://jq.qq.com/?_wv=1027&k=8eFV5nhs"
                   target="_blank"
                   className="hover:underline underline-offset-4"
                 >
@@ -86,7 +86,7 @@ export default function RootLayout({
               <ul className="flex flex-wrap justify-center my-3 md:my-0 items-center text-sm text-gray-500 dark:text-gray-400 sm:mt-0 gap-x-2">
                 <li className="flex justify-center">
                   <a
-                    href="https://github.com/360macky/dreamify"
+                    href="https://jq.qq.com/?_wv=1027&k=8eFV5nhs"
                     target="_blank"
                     className="hover:underline underline-offset-4"
                   >
@@ -95,7 +95,7 @@ export default function RootLayout({
                 </li>
                 <li className="flex justify-center">
                   <a
-                    href="https://twitter.com/360macky/status/1633454258660995072"
+                    href="https://jq.qq.com/?_wv=1027&k=8eFV5nhs"
                     target="_blank"
                     className="hover:underline underline-offset-4"
                   >
