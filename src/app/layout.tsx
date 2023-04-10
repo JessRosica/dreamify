@@ -72,13 +72,13 @@ export default function RootLayout({
           <div className="m-auto max-w-4xl md:py-4 flex w-full flex-col justify-center md:flex-row md:justify-between">
             <div className="flex justify-center items-center mt-3 md:mt-0">
               <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-                © 2023 Dreamify. Created by{" "}
+                © 2023 蒸汽电饭煲. Created by{" "}
                 <a
                   href="https://github.com/360macky"
                   target="_blank"
                   className="hover:underline underline-offset-4"
                 >
-                  Marcelo Arias
+                  JessRosica
                 </a>
               </span>
             </div>
