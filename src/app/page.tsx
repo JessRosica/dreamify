@@ -22,7 +22,7 @@ export default function Home() {
           </span>
         </h1>
         <p className="lg:text-lg text-slate-600 dark:text-slate-200 text-center border dark:border-white px-8 py-1 rounded-full">
-          Generated over <b>400</b> images!
+          蒸汽电饭煲AI画图已经创造了 <b>400</b> 图片!
         </p>
         <p className="lg:text-xl text-slate-800 dark:text-slate-200 text-center hidden">
           Powered by{" "}
