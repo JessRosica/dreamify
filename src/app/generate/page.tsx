@@ -232,7 +232,7 @@ export default function Page() {
               </div>
             </div>
             <div className="flex flex-col gap-y-2  w-full">
-              <Label htmlFor="email">Scheduler</Label>
+              <Label htmlFor="email">采样器模型</Label>
               <Select defaultValue="k_euler" onValueChange={(value: Scheduler) => {
                 setAdvancedPrompt({
                   ...advancedPrompt,
